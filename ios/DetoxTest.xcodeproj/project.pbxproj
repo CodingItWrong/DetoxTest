@@ -161,7 +161,6 @@
 				61ECED4C95A22AE292373F23 /* Pods-DetoxTest-tvOSTests.debug.xcconfig */,
 				665DA58975E4576019067A5B /* Pods-DetoxTest-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
