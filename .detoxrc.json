@@ -4,7 +4,8 @@
   "apps": {
     "ios": {
       "type": "ios.app",
-      "binaryPath": "SPECIFY_PATH_TO_YOUR_APP_BINARY"
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/DetoxTest.app",
+      "build": "xcodebuild -workspace ios/DetoxTest.xcworkspace -configuration Debug -scheme DetoxTest -destination id=971B10D9-8BC8-48AA-BC91-9CD6CB199632 -derivedDataPath ios/build"
     },
     "android": {
       "type": "android.apk",
