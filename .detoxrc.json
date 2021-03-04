@@ -7,6 +7,11 @@
       "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/DetoxTest.app",
       "build": "xcodebuild -workspace ios/DetoxTest.xcworkspace -configuration Debug -scheme DetoxTest -destination id=971B10D9-8BC8-48AA-BC91-9CD6CB199632 -derivedDataPath ios/build"
     },
+    "ios.ci": {
+      "type": "ios.app",
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/DetoxTest.app",
+      "build": "xcodebuild -workspace ios/DetoxTest.xcworkspace -configuration Debug -scheme DetoxTest -destination id=FCCE5001-65C3-4021-89D1-CA91867BC8ED -derivedDataPath ios/build"
+    },
     "android": {
       "type": "android.apk",
       "binaryPath": "SPECIFY_PATH_TO_YOUR_APP_BINARY"
@@ -30,6 +35,10 @@
     "ios": {
       "device": "simulator",
       "app": "ios"
+    },
+    "ios.ci": {
+      "device": "simulator",
+      "app": "ios.ci"
     },
     "android": {
       "device": "emulator",

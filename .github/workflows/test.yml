@@ -23,6 +23,6 @@ jobs:
       - name: Install Pod Dependencies
         run: cd ./ios && pod install && cd ..
       - name: Detox Build
-        run: detox build -c ios
+        run: detox build -c ios.ci
       - name: Detox Test
-        run: detox test -c ios --cleanup
+        run: detox test -c ios.ci --cleanup
